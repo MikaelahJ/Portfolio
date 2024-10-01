@@ -9,7 +9,8 @@ Here is a preview of my previous and current projects :)
 
 ## [Employee Of The Month](https://github.com/MikaelahJ/Portfolio/tree/main/Employee%20Of%20The%20Month) <-- LEARN MORE!
 
-![Image](https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/fire.gif)
+![Image](https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/b96Qmf.gif) ![Image](https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/m03upx.gif)
+![Image](https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/nCaYIk.gif) ![Image](https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/xAcCT7.gif)
 
 
 
