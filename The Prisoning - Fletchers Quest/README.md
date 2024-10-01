@@ -25,7 +25,7 @@ I would then, where needed, override these core functions for enemies that would
 
 While the enemies in this game look visually distinct from each other, their movement and attack behaviors are built using modular scripts. This allowed me to reuse scripts with slight tweaks. All enemies would use a "Passive" attack script to damage the player on contact, this script only needed to be placed on the prefab where the relevant collider was located and would work with the disabling and enabling functions seamlessly. A "Ranged" attack script could also be added to give an enemy ranged functionality. This script could easily be tweaked to change shooting cooldown or which projectile prefab to use and add to it's object pool. Movement was built similarly, with 3 base movement types: Patrolling, Fixed or AIPath. 
 
-> This enemy, Jetbrain, is using the default "Patrolling" movement script with the base "Passive" attack while the hamster enemy uses the same scripts only that it overrides the "turn" function of patrolling movement to rotate it instead of turning. </br>
+> This Jetbrain enemy (left) is using the default "Patrolling" movement script with the base "Passive" attack while the hamster enemy (right) uses the same scripts only that it overrides the "turn" function of patrolling movement to rotate it instead of turning. </br>
 > <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/jetbrain.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/hamsters.gif" width="400"/>
 
 > These enemies both use the "AIPath" movement with the exception that the Mustang (left) only runs it's "Move" function once to place the roads while the Mimic (right) runs repetably to continue following the player. </br>
@@ -36,34 +36,41 @@ Projectiles were setup in a simmilar way, each inheriting from an abstract base 
 > This GnomeDoor is checking if the player is in range before shooting out Gnomes using the "Ranged" script. The Gnomes themselves didn't need any advanced movement and are functionally only a projectile not an enemy. (this is just from removing a spawn time limit for a fun gif) </br>
 > <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/manyGnomes.gif" width="400"/> </br>
 
-Projectiles could either use a fixed vector direction or gain unique behavior by adding gravity or following the player.
+Projectiles could either use a fixed vector direction or some unique behavior by using gravity or following the player.
+
 > These all use the same projectile base with some tweaks. </br>
 > <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/monkeys.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/droid.gif" width="400"/> </br>
 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/twiggyDeaths.gif" width="400"/> 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/sharkLasers.gif" width="400"/> 
+> These lasers the Sharks are screaming were fun to make. I used sprite masks to simulate the laser moving forward at the start of the attack and it disappearing because it is just a long image without animations. There was a lot of tweaking of timings to match animations and collision correctly. </br>
+> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/sharkLasers.gif" width="400"/></br>
+
+> And Lastly, what I think is my favorite enemy, poor Twiggy and their family. </br>
+> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/twiggyDeaths.gif" width="400"/> </br>
 
 
 
 ### Bosses
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/AloneShark.gif" width="400"/> 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/GoldenPirog.gif" width="400"/> 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/Christine.gif" width="400"/> 
+Similarly to the enemies, the bosses also have a base "boss class". This handled the logic around spawning conditions, disabling the player, starting dialogue and closing enviorment doors to set the arena. The bosses run using state machines controlling what to do when switching state and which functions to run in each state. This allowed them to smoothly switch between states and it was easy to see when they switched in editor which helped greatly during testing as i could easily test each state by connecting a debug button. They could also make use of the previously discussed attack and movement scripts which allowed me to quickly make a prototype for the level and game designers to look at and decide which direction the boss should take and specify how the attacks should function. This also made it easier for the artists to decide which animations would be needed.
 
+> Both of these use the "Ranged" script and they either use movement scripts previously used in enemies or use movement scripts i could later implement in other enemies. For the Aloneshark (left) i discovered [bezier curves](https://en.wikipedia.org/wiki/B%C3%A9zier_curve) which i loved playing around with and later used for the Con enemy which we sadly didn't have time to implement fully into the game. </br>
+> <sup> As a sidenote this movement would be perfect for a frog enemy. </sup> </br>
+> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/AloneShark.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/GoldenPirog.gif" width="400"/> </br>
 
+> For the starting cutscene this boss uses a modified Hamster patroll movement to spawn its healthbar moving along the edge of the screen. It also uses the "Ranged" attack script to throw its tires. </br>
+> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/Christine.gif" width="400"/> </br>
 
 ### Cutscenes & Dialogue
 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/dialogue.gif" width="400"/> 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/poster.gif" width="400"/> 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/toilet.gif" width="400"/> 
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/dialogue.gif" width="400"/> </br>
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/poster.gif" width="400"/> </br>
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/toilet.gif" width="400"/> </br>
 
 
 
 ### Sequence Breaks
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/ufo.gif" width="400">
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/submarine.gif" width="400">
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/karaoke.gif" width="400">
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/ufo.gif" width="400"> </br>
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/submarine.gif" width="400"> </br>
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/karaoke.gif" width="400"> </br>
 
 
 
