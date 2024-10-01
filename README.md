@@ -8,6 +8,7 @@ Here is a preview of my previous and current projects :)
 
 
 ## [Employee Of The Month](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
+[![Trailer](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=pvR69k_hrYw)
 
 
 ## [Scorched Fur](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
