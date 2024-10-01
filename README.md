@@ -4,8 +4,8 @@ Here is a preview of my previous and current projects :)
 
 # Game Catalog
 
-## [The Prisoning: Fletcher's Quest](https://store.steampowered.com/app/2725470/The_Prisoning_Fletchers_Quest/) <-- LEARN MORE!
-
+## [The Prisoning: Fletcher's Quest](https://github.com/MikaelahJ/Portfolio/tree/main/The%20Prisoning%20-%20Fletchers%20Quest) <-- LEARN MORE!
+https://store.steampowered.com/app/2725470/The_Prisoning_Fletchers_Quest/
 
 ## [Employee Of The Month](https://github.com/MikaelahJ/Portfolio/tree/main/Employee%20Of%20The%20Month) <-- LEARN MORE!
  >A 2D top down game where you get the chance to take out all your office aggression against your friends in a two- to four person shooter office showdown to become the Employee of the month! 
