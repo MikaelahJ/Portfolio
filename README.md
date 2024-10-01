@@ -4,7 +4,7 @@ Here is a preview of my previous and current projects :)
 
 # Game Catalog
 
-## [The Prisoning: Fletcher's Quest](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
+## [The Prisoning: Fletcher's Quest](https://store.steampowered.com/app/2725470/The_Prisoning_Fletchers_Quest/) <-- LEARN MORE!
 
 
 ## [Employee Of The Month](https://github.com/MikaelahJ/Portfolio/tree/main/Employee%20Of%20The%20Month) <-- LEARN MORE!
@@ -14,10 +14,8 @@ Developed: Winter 2022-2023. <br>
 Engine: Unity <br>
 Team: 3 programmers and 4 artists <br>
 
-![Image](https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/b96Qmf.gif) ![Image](https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/m03upx.gif)
-![Image](https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/nCaYIk.gif) ![Image](https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/xAcCT7.gif)
-
-
+![Image](https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm1.gif) ![Image](https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm2.gif)
+![Image](https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm4.gif) ![Image](https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm3.gif)
 
 ## [Scorched Fur](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
 
