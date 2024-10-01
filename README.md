@@ -4,25 +4,27 @@ Here is a preview of my previous and current projects :)
 
 # Game Catalog
 
-## The Prisoning: Fletcher's Quest 
+## [The Prisoning: Fletcher's Quest](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
 
 
-## Employee Of The Month
+## [Employee Of The Month](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
 
 
-## Scorched Fur
+## [Scorched Fur](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
 
 
-## Entity
+## [Entity](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
 
 
 # Game Jams
 
-## Borderline Collie
+## [Borderline Collie](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
 
 
-## Grumpy Granny
+## [Froggy Rescue: Stockholm City](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
+
+## [Grumpy Granny](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
 
 
-## Ladder Engineer
+## [Ladder Engineer](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
 
