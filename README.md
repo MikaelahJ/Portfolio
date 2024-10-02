@@ -62,21 +62,21 @@ Itch.io page: [Here](https://yrgo-game-creator.itch.io/employee-of-the-month) <b
 ___
 # Game Jams
 
-## [Borderline Collie](https://mikaelahj.itch.io/borderline-collie) <-- Itch.io page here!
+### [Borderline Collie](https://mikaelahj.itch.io/borderline-collie) <-- Itch.io page here!
 Theme: Make me laugh <br>
 Engine: Unity <br>
 
 ___
-## [Froggy Rescue: Stockholm City](https://mikaelahj.itch.io/froggy-rescue) <-- Itch.io page here!
+### [Froggy Rescue: Stockholm City](https://mikaelahj.itch.io/froggy-rescue) <-- Itch.io page here!
 Theme: This was for a Science jam where our theme was a scientists field of research, our scientist researched flash flooding and how it's getting worse and the consequenses from this <br>
 Engine: Unreal Engine 5 <br>
 
 ___
-## [Grumpy Granny](https://mikaelahj.itch.io/grumpy-granny) <-- Itch.io page here!
+### [Grumpy Granny](https://mikaelahj.itch.io/grumpy-granny) <-- Itch.io page here!
 Theme: Close call <br>
 Engine: Unity <br>
 
 ___
-## [Ladder Engineer](https://linus-lindblad.itch.io/ladder-engineer) <-- Itch.io page here!
+### [Ladder Engineer](https://linus-lindblad.itch.io/ladder-engineer) <-- Itch.io page here!
 Theme: Bottomless <br>
 Engine: Unreal Engine 5 <br>
