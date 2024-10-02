@@ -1,7 +1,7 @@
 
 # ENTITY
 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/entity.png" width=75%>
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/header.jpg" width=75%>
 
 > In the distant future, humanity is on the verge of extinction. Their new world regime, e-corps are the sole suppliers of food and water, thus the people of earth must obey.
 They have set up an inhumane arena, where you plug yourself into their neural engine and fight within the mind of their entity. Pain is real, death is not.
