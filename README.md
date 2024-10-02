@@ -5,13 +5,14 @@ Here is a preview of my previous and current projects :)
 # Game Catalog
 
 ## [The Prisoning: Fletcher's Quest](https://github.com/MikaelahJ/Portfolio/tree/main/The%20Prisoning%20-%20Fletchers%20Quest) <-- LEARN MORE!
-https://store.steampowered.com/app/2725470/The_Prisoning_Fletchers_Quest/
+
 > After a visit to the psychologist that went horribly wrong you’re trapped in the mind of a game developer on the brink of physical and emotional burnout during the last stages of an intense project. Experience a metroidvania drenched in anxiety based on a very true story.
 Help Fletcher Howie Jr. escape his mental prison and save the day!
 
 Developed: Nov 2023 - June 2024 <br>
 Engine: Unity <br>
 Team: [Elden Pixels](https://eldenpixels.com/) <br>
+Steam page: [Here](https://store.steampowered.com/app/2725470/The_Prisoning_Fletchers_Quest/)<br>
 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/prisoning1.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/prisoning2.gif" width="400"/> 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/prisoning3.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/prisoning4.gif" width="400"/> 
