@@ -48,7 +48,7 @@ Projectiles could either use a fixed vector direction or some unique behavior by
 > And Lastly, what I think is my favorite enemy, poor Twiggy and their family. </br>
 > <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/twiggyDeaths.gif" width="400"/> </br>
 
-
+___
 ### Bosses
 Similarly to the enemies, the bosses also have an abstract base boss class. This handled the logic around spawning conditions, disabling the player, starting dialogue and closing enviorment doors to set the arena. The bosses run using state machines controlling what to do when switching state and which functions to run in each state. This allowed them to smoothly switch between states and it was easy to see when they switched in editor which helped greatly during testing as i could easily test each state by connecting debug buttons. They could also make use of the previously discussed attack and movement scripts which allowed me to quickly make a prototype for the level and game designers to look at and decide which direction the boss should take and specify how the movement and attacks should function. This also made it easier for the artists to decide which animations would be needed.
 
@@ -60,14 +60,14 @@ Similarly to the enemies, the bosses also have an abstract base boss class. This
 > <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/christine.gif" width="400"/> </br>
 <!-- add gif of healthbar spawning -->
 
-
+___
 ### Cutscenes & Dialogue
 I also created a bunch of cutscenes using Unity's Timeline asset and systems to play correct dialogue based on how far the player has gotten or what the player has collected. Timelines require a lot of tweaking to get perfect timings which would take some time but it was also very satisfying and fun to sit with. 
 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/dialogue.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/poster.gif" width="400"/></br>
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/toilet.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/collection.gif" width="400"/>
 
-
+___
 ### Sequence Breaks
 These were some of the most fun to make and play around with. I developed everything from the movement types of the submarine and UFO to the cutscenes and level loading surrounding them to the enemies and obstacles. </br>
 
@@ -90,6 +90,7 @@ There were some things that i developed and put a lot of effort and time into bu
 > There were also plans for a smarter enemy. I made my own AI for this enemy using raycasts to figure out where they could jump to based on tweakable variables determining how high or long jumps they could do. This was super fun to test and fix all the cases where it would jump though tiles or getting stuck in corners. I made 2 states for this enemy where it in the "hunting" state would try to get to the players level to shoot them and a "hiding" state which it would enter if it got hurt. In the hiding state it would try to get as far away from the player it could to "regroup" for a second before switching into hunting mode again. </br>
 > <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/aiEnemy.gif" width="400"> </br>
 
+___
 ### Some fun gifs to end this page :)
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/horseDance.gif" width="400"> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/flyingCon.gif" width="400"> </br> 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/messyShader.gif" width="400"> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/wrongSprite.gif" width="400"> </br> 
