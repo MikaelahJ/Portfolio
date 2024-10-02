@@ -28,7 +28,7 @@ This was of course fixed as we dove deeper into the networking nest of Unreal. <
   <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/deathbox.png" width=100%> <br>
 </details>
 
-
+___
 ### VFX, Niagara
 I developed the system for all of the weapon VFX using Niagara with assets from our artists and by tweaking finished assets from the Epic Marketplace.
 
@@ -41,7 +41,7 @@ I developed the system for all of the weapon VFX using Niagara with assets from 
   <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/weaponFX2.png" width=100%> <br>
 </details>
 
-
+___
 ### Death Boxes
 When a player dies they drop what we called a "Death Box". This is where their items and pickups were stored for other players to loot. I made these by saving all of the players items in a struct and then when spawning the box just add the types of items and how much ammo each weapon had from the struct. I also setup the UI for these and made sure it clearly showed what was inside. 
 
@@ -54,7 +54,7 @@ When a player dies they drop what we called a "Death Box". This is where their i
   <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/addtobox.png" width=100%> <br>
 </details>
 
-
+___
 ### Pickups & HUD
 I also developed our pickup system and the HUD showing active upgrades, chosen username, health, ammo and which level of armor you have equipped. <br>
 
@@ -70,6 +70,6 @@ I also developed our pickup system and the HUD showing active upgrades, chosen u
   <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/updateweaponicon.png" width=100%> <br>
 </details>
 
-
+___
 ### Some fun commits to end this page :)
   <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/gitCommits.png" width=75%>
