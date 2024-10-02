@@ -10,13 +10,10 @@ The champion of the game is the only one to win the prize, and the only one who 
 [Itch.io page](https://yrgo-game-creator.itch.io/entity)
 
 ## Brief project background
-For 6 months, I worked as an intern at Elden Pixels in Gothenburg. I was involved from the start on _The Prisoning: Fletcher's Quest_, a new project in Unity where I had significant responsibility for developing enemies and bosses. During this internship, I created around 20 enemies and 3 bosses from scratch, which was a super fun challenge to program. In addition to working on enemies, I spent a lot of time developing both in-depth systems and various gameplay systems related to enemies and bosses, as well as unique sequence breaks and cutscenes to give the game its distinctive feel.
-Currently, I don’t know the release date, but there may be an opportunity to test a demo if you're interested. :)
+Entity was a 7-week project during the spring of 2023 where my team developed a LAN multiplayer FPS in Unreal Engine 5 (Blueprints) set in a dark environment with various light-related abilities. I, together with another programmer, primarily handled the networking aspect and integrated the other team members' features to function and replicate for all players simultaneously. I also worked extensively on developing our VFX and ensuring they displayed correctly for all players.
 
-## My contributions as a programming intern at Elden Pixels
->[!NOTE]
-> While the code I've written is secret, the game is not. I'm allowed to show everything I've done and will try my best to explain the systems I've built for this project. Please be aware that this is an early alpha and while some features are polished and complete others may not be. I also apologize in advance for the quality of some of the following gifs :)
 
+## My contributions to this project
 ### Enemies
 
 One of my main responabilities were the enemy behaviors and animation controllers. Every enemy is pooled in an objectpool to reuse as a new room loads. This meant all enemies need to be able to reset correctly when a room is loaded. All enemies inherit from the same abstract base class which handled essential functionality such as enabling and disabling on room load/unload, taking damage, doing damage and lastly death. 
@@ -51,7 +48,7 @@ Projectiles could either use a fixed vector direction or some unique behavior by
 > <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/twiggyDeaths.gif" width="400"/> </br>
 
 
-### Bosses
+### VFX, Niagara
 Similarly to the enemies, the bosses also have an abstract base boss class. This handled the logic around spawning conditions, disabling the player, starting dialogue and closing enviorment doors to set the arena. The bosses run using state machines controlling what to do when switching state and which functions to run in each state. This allowed them to smoothly switch between states and it was easy to see when they switched in editor which helped greatly during testing as i could easily test each state by connecting debug buttons. They could also make use of the previously discussed attack and movement scripts which allowed me to quickly make a prototype for the level and game designers to look at and decide which direction the boss should take and specify how the movement and attacks should function. This also made it easier for the artists to decide which animations would be needed.
 
 > Both of these use the "Ranged" script and they either use movement scripts previously used in enemies or use movement scripts i could later implement in other enemies. For the Aloneshark (left) i discovered [bezier curves](https://en.wikipedia.org/wiki/B%C3%A9zier_curve) which i loved playing around with and later used for the Con enemy which we sadly didn't have time to implement fully into the game. </br>
