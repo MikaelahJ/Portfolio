@@ -29,8 +29,12 @@ This was of course fixed as we dove deeper into the networking nest of Unreal. <
 </details>
 
 <details>
-  <summary> Join game </summary> <br>
+  <summary> Find open games </summary> <br>
   <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/join1.png" width=100%> <br>
+</details>
+
+<details>
+  <summary> Join game </summary> <br>
   <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/join2.png" width=100%> <br>
 </details>
 
