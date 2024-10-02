@@ -24,8 +24,14 @@ This was of course fixed as we dove deeper into the networking nest of Unreal. <
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/hostandjoin.gif" width="700">
 
 <details>
-  <summary> Spawning a death box </summary> <br>
-  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/deathbox.png" width=100%> <br>
+  <summary> Host game </summary> <br>
+  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/host.png" width=100%> <br>
+</details>
+
+<details>
+  <summary> Join game </summary> <br>
+  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/join1.png" width=100%> <br>
+  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/join2.png" width=100%> <br>
 </details>
 
 ___
