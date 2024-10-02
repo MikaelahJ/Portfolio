@@ -12,7 +12,7 @@ For 6 months, I worked as an intern at Elden Pixels in Gothenburg. I was involve
 Currently, I don’t know the release date, but there may be an opportunity to test a demo if you're interested. :)
 
 ## My contributions as a programming intern at Elden Pixels
-
+>[!NOTE]
 > While the code I've written is secret, the game is not. I'm allowed to show everything I've done and will try my best to explain the systems I've built for this project. Please be aware that this is an early alpha and while some features are polished and complete others may not be :)
 
 ### Enemies
@@ -33,13 +33,14 @@ While the enemies in this game look visually distinct from each other, their mov
 
 Projectiles were setup in a simmilar way, each inheriting from an abstract base projectile class. This class handled enabling/disabling the same way enemies did and checked if out of bounds or when hitting the player. 
 
-> This GnomeDoor is checking if the player is in range before shooting out Gnomes using the "Ranged" script. The Gnomes themselves didn't need any advanced movement and are functionally only a projectile not an enemy. (this is just from removing a spawn time limit for a fun gif) </br>
+> This GnomeDoor is checking if the player is in sight before shooting out Gnomes using the "Ranged" script. The Gnomes themselves didn't need any advanced movement and are functionally only a projectile not an enemy. (this endless stream is just from removing a spawn time limit for a fun gif) </br>
 > <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/manyGnomes.gif" width="400"/> </br>
 
 Projectiles could either use a fixed vector direction or some unique behavior by using gravity or following the player.
 
 > These all use the same projectile base with some tweaks. </br>
 > <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/monkeys.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/droid.gif" width="400"/> </br>
+# SÄTT GIF PÅ screamer och satanist
 
 > These lasers the Sharks are screaming were fun to make. I used sprite masks to simulate the laser moving forward at the start of the attack and it disappearing because it is just a long image without animations. There was a lot of tweaking of timings to match animations and collision correctly. </br>
 > <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/sharkLasers.gif" width="400"/></br>
@@ -56,15 +57,16 @@ Similarly to the enemies, the bosses also have a base "boss class". This handled
 > <sup> As a sidenote this movement would be perfect for a frog enemy. </sup> </br>
 > <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/AloneShark.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/GoldenPirog.gif" width="400"/> </br>
 
-> For the starting cutscene this boss uses a modified Hamster patroll movement to spawn its healthbar moving along the edge of the screen. It also uses the "Ranged" attack script to throw its tires. </br>
-> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/Christine.gif" width="400"/> </br>
+> For the starting cutscene this boss uses a slightly modified Hamster patroll movement to spawn its healthbar moving along the edge of the screen. It also uses the "Ranged" attack script to throw its tires. </br>
+> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/christine.gif" width="400"/> </br>
+# SÄTT GIF PÅ HEALTHBAR SOM SPAWNAR
+
 
 ### Cutscenes & Dialogue
+I also created a bunch of cutscenes using Unity's Timeline asset and systems to play correct dialogue based on how far the player has gotten or what the player has collected. Timelines require a lot of tweaking to get perfect timings which would take some time but it was also very satisfying and fun to sit with. 
 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/dialogue.gif" width="400"/> </br>
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/poster.gif" width="400"/> </br>
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/toilet.gif" width="400"/> </br>
-
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/dialogue.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/poster.gif" width="400"/></br>
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/toilet.gif" width="400"/>
 
 
 ### Sequence Breaks
@@ -72,6 +74,6 @@ Similarly to the enemies, the bosses also have a base "boss class". This handled
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/submarine.gif" width="400"> </br>
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/karaoke.gif" width="400"> </br>
 
-
+### Systems and other that i developed but didn't make it into the product at the time I was with them
 
 
