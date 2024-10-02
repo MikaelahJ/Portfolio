@@ -39,8 +39,8 @@ Developed: Mars 2023 - May 2023 <br>
 Engine: Unreal Engine 5 <br>
 Team: 4 Programmers, 4 Artists <br>
 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm1.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm2.gif" width="400"/> 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm4.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm3.gif" width="400"/> 
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/entity1.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/entity2.gif" width="400"/> 
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/entity3.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/entity4.gif" width="400"/> 
 
 
 ## [Employee Of The Month](https://github.com/MikaelahJ/Portfolio/tree/main/Employee%20Of%20The%20Month) <-- LEARN MORE!
@@ -59,13 +59,13 @@ Team: 3 Programmers, 4 Artists <br>
 
 # Game Jams
 
-## [Borderline Collie](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
+## [Borderline Collie](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- Itch.io page here!
 
 
-## [Froggy Rescue: Stockholm City](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
+## [Froggy Rescue: Stockholm City](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- Itch.io page here!
 
-## [Grumpy Granny](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
+## [Grumpy Granny](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- Itch.io page here!
 
 
-## [Ladder Engineer](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
+## [Ladder Engineer](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- Itch.io page here!
 
