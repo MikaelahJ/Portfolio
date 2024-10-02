@@ -1,6 +1,6 @@
 # Mikaelah Jenkins Portfolio
 
-Here is a preview of my previous and current projects :)
+Here is a preview of my previous projects :)
 
 # Game Catalog
 
