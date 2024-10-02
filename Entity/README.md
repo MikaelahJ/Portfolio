@@ -14,7 +14,7 @@ Entity was a 7-week project during the spring of 2023 where my team developed a 
 
 
 ## My contributions to this project
-### Enemies
+### Networking & Replication
 
 One of my main responabilities were the enemy behaviors and animation controllers. Every enemy is pooled in an objectpool to reuse as a new room loads. This meant all enemies need to be able to reset correctly when a room is loaded. All enemies inherit from the same abstract base class which handled essential functionality such as enabling and disabling on room load/unload, taking damage, doing damage and lastly death. 
 I would then, where needed, override these core functions for enemies that would need unique behaviors. 
@@ -22,47 +22,23 @@ I would then, where needed, override these core functions for enemies that would
 > An example of this is the screen eating Beetle that needed to do all the default disabling and resetting when the player dies or leaves the room, but it would also need to tell the "screen eater" script to reset the camera so the player could see normally again. </br>
 > <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/beetle.gif" width="400"/> <br>
 
-While the enemies in this game look visually distinct from each other, their movement and attack behaviors are built using modular scripts. This allowed me to reuse scripts with slight tweaks. All enemies would use a "Passive" attack script to damage the player on contact, this script only needed to be placed on the prefab where the relevant collider was located and would work with the disabling and enabling functions seamlessly. A "Ranged" attack script could also be added to give an enemy ranged functionality. This script could easily be tweaked to change shooting cooldown or which projectile prefab to use and add to it's object pool. Movement was built similarly, with 3 base movement types: Patrolling, Fixed or AIPath. 
-
-> This Jetbrain enemy (left) is using the default "Patrolling" movement script with the base "Passive" attack while the hamster enemy (right) uses the same scripts only that it overrides the "turn" function of patrolling movement to rotate it instead of turning. The Jetbrain also overrides the base Death function as it doesn't really die, but rather hides. </br>
-> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/jetbrain.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/hamsters.gif" width="400"/>
-
-> These enemies both use the "AIPath" movement with the exception that the Mustang (left) only runs it's "Move" function once to place the roads while the Mimic (right) runs repetably to continue following the player. </br>
-> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/mustang.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/camelSnake.gif" width="400"/> </br>
-
-Projectiles were setup in a similar way, each inheriting from an abstract base projectile class. This class handled enabling/disabling the same way enemies did and checked if out of bounds or when hitting the player. 
-
-> This GnomeDoor is checking if the player is in sight before shooting out Gnomes using the "Ranged" script. The Gnomes themselves didn't need any advanced movement and are functionally only a projectile not an enemy. (this endless stream is just from removing a spawn time limit for a fun gif) </br>
-> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/manyGnomes.gif" width="400"/> </br>
-
-Projectiles could either use a fixed vector direction or some unique behavior by using gravity or following the player.
-
-> These all use the same projectile base with some tweaks to speed, gravity or directions. </br>
-> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/monkeys.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/satanist.gif" width="400"/> </br>
-> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/screamer.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/droid.gif" width="400"/> </br>
-
-> These lasers the Sharks are screaming were fun to make. I used sprite masks to simulate the laser moving forward at the start of the attack and it disappearing because it is just a long image without animations. There was a lot of tweaking of timings to match animations and collision correctly. </br>
-> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/sharkLasers.gif" width="400"/></br>
-
-> And Lastly, what I think is my favorite enemy, poor Twiggy and their family. </br>
-> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/twiggyDeaths.gif" width="400"/> </br>
-
 
 ### VFX, Niagara
-Similarly to the enemies, the bosses also have an abstract base boss class. This handled the logic around spawning conditions, disabling the player, starting dialogue and closing enviorment doors to set the arena. The bosses run using state machines controlling what to do when switching state and which functions to run in each state. This allowed them to smoothly switch between states and it was easy to see when they switched in editor which helped greatly during testing as i could easily test each state by connecting debug buttons. They could also make use of the previously discussed attack and movement scripts which allowed me to quickly make a prototype for the level and game designers to look at and decide which direction the boss should take and specify how the movement and attacks should function. This also made it easier for the artists to decide which animations would be needed.
+I developed the system for all of the weapon VFX using Niagara with assets from our artists and by tweaking finished assets from the Epic Marketplace. 
+
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/AloneShark.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/GoldenPirog.gif" width="400"/> </br>
 
 > Both of these use the "Ranged" script and they either use movement scripts previously used in enemies or use movement scripts i could later implement in other enemies. For the Aloneshark (left) i discovered [bezier curves](https://en.wikipedia.org/wiki/B%C3%A9zier_curve) which i loved playing around with and later used for the Con enemy which we sadly didn't have time to implement fully into the game. </br>
 > <sup> As a sidenote this movement would be perfect for a frog enemy. </sup> </br>
 > <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/AloneShark.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/GoldenPirog.gif" width="400"/> </br>
 
-> For the starting cutscene this boss uses a slightly modified Hamster patroll movement to spawn its healthbar moving along the edge of the screen. It also uses the "Ranged" attack script to throw its tires. </br>
-> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/christine.gif" width="400"/> </br>
-<!-- add gif of healthbar spawning -->
-
-
-### Cutscenes & Dialogue
-I also created a bunch of cutscenes using Unity's Timeline asset and systems to play correct dialogue based on how far the player has gotten or what the player has collected. Timelines require a lot of tweaking to get perfect timings which would take some time but it was also very satisfying and fun to sit with. 
-
+### Death Boxes
+When a player dies they drop what we called a "Death Box". This is where their items and pickups were stored for other players to loot. I made these by saving all of the players items and then when spawning the box just add the types of items and how much ammo each weapon had. I also setup the UI for these and made sure it clearly showed what was inside. 
+<details>
+  <summary> Click here to show blueprints </summary> <br>
+  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/dialogue.gif" width="400"/>
+  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/poster.gif" width="400"/>
+</details>
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/dialogue.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/poster.gif" width="400"/></br>
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/toilet.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/collection.gif" width="400"/>
 
