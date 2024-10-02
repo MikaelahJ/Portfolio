@@ -24,9 +24,10 @@ You're their last hope!
 Developed: Sep 2023 - Nov 2023 <br>
 Engine: Unreal Engine 5 <br>
 Team: 3 Programmers, 1 Artist <br>
+Itch.io page: [Here](https://mikaelahj.itch.io/scorched-fur)<br>
 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm1.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm2.gif" width="400"/> 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm4.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm3.gif" width="400"/> 
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/scorchedFur1.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/scorchedFur2.gif" width="400"/> 
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/scorchedFur3.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/scorchedFur4.gif" width="400"/> 
 
 
 ## [Entity](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
