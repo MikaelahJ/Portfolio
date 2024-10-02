@@ -13,7 +13,7 @@ Currently, I don’t know the release date, but there may be an opportunity to t
 
 ## My contributions as a programming intern at Elden Pixels
 >[!NOTE]
-> While the code I've written is secret, the game is not. I'm allowed to show everything I've done and will try my best to explain the systems I've built for this project. Please be aware that this is an early alpha and while some features are polished and complete others may not be :)
+> While the code I've written is secret, the game is not. I'm allowed to show everything I've done and will try my best to explain the systems I've built for this project. Please be aware that this is an early alpha and while some features are polished and complete others may not be. I also apologize in advance for the quality of some of the following gifs :)
 
 ### Enemies
 
