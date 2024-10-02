@@ -68,7 +68,7 @@ Engine: Unity <br>
 
 ___
 ### [Froggy Rescue: Stockholm City](https://mikaelahj.itch.io/froggy-rescue) <-- Itch.io page here!
-Theme: This was for a Science jam where our theme was a scientists field of research, our scientist researched flash flooding and how it's getting worse and the consequenses from this <br>
+Theme: This was for a Science jam where our theme was a scientists field of research, flash flooding <br>
 Engine: Unreal Engine 5 <br>
 
 ___
