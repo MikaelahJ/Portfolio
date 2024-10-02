@@ -81,6 +81,7 @@ These were some of the most fun to make and play around with. I developed everyt
 > This karaoke sequence was made using a timeline sending signals during the audiotrack of the song playing to tell my platform spawner script to spawn a new platform with the next line from the lyrics. This was a fan favorite of playtesters who thought it was very funny :) </br>
 > <img src="https://github.com/MikaelahJ/Portfolio/blob/main/The%20Prisoning%20-%20Fletchers%20Quest/Visuals/karaoke.gif" width="400"> 
 
+___
 ### Not included in demo at the time I was there 
 There were some things that i developed and put a lot of effort and time into but we just didn't have the time to fully design and implement them. </br>
 
