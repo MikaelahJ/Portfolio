@@ -17,7 +17,7 @@ Steam page: [Here](https://store.steampowered.com/app/2725470/The_Prisoning_Flet
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/prisoning1.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/prisoning2.gif" width="400"/> 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/prisoning3.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/prisoning4.gif" width="400"/> 
 
-## [Scorched Fur](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <-- LEARN MORE!
+## [Scorched Fur](https://github.com/MikaelahJ/Scorched-Fur-Master-thesis/tree/main) <-- LEARN MORE!
 > Step into the mystical valley of long lost magic, mysterious runes and living fauna. Exterminate the corrupted plants to reclaim this thriving land for your kind. 
 You're their last hope!
 
