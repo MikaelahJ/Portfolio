@@ -58,7 +58,7 @@ When a player dies they drop what we called a "Death Box". This is where their i
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/deathbox.gif" width="700"> <br>
 
 <details>
-  <summary> Spawning a death box and adding items to it </summary> <br>
+  <summary> Spawning a death box and update its inventory </summary> <br>
   <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/spawndeathbox.png" width=100%> <br>
   <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/deathboxStruct.png" width=100%> <br>
   <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/addtobox.png" width=100%> <br>
