@@ -38,6 +38,7 @@ The champion of the game is the only one to win the prize, and the only one who 
 Developed: Mars 2023 - May 2023 <br>
 Engine: Unreal Engine 5 <br>
 Team: 4 Programmers, 4 Artists <br>
+Itch.io page: [Here](https://yrgo-game-creator.itch.io/entity)<br>
 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/entity1.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/entity2.gif" width="400"/> 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/entity3.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/entity4.gif" width="400"/> 
@@ -49,6 +50,7 @@ Team: 4 Programmers, 4 Artists <br>
 Developed: Nov 2022 - Jan 2023 <br>
 Engine: Unity <br>
 Team: 3 Programmers, 4 Artists <br>
+Itch.io page: [Here](https://yrgo-game-creator.itch.io/employee-of-the-month) <br>
 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm1.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm2.gif" width="400"/> 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm4.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm3.gif" width="400"/> 
