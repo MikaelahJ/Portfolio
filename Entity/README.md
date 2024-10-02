@@ -41,10 +41,21 @@ I developed the system for all of the weapon VFX using Niagara with assets from 
 </details>
 
 
-### Death Boxes
-When a player dies they drop what we called a "Death Box". This is where their items and pickups were stored for other players to loot. I made these by saving all of the players items and then when spawning the box just add the types of items and how much ammo each weapon had. I also setup the UI for these and made sure it clearly showed what was inside. 
+### Death Boxes & Pickups
+When a player dies they drop what we called a "Death Box". This is where their items and pickups were stored for other players to loot. I made these by saving all of the players items in a struct and then when spawning the box just add the types of items and how much ammo each weapon had from the struct. I also setup the UI for these and made sure it clearly showed what was inside. 
 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/deathbox.gif" width="400"> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/deathboxUI.gif" width="400"> <br>
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/deathbox.gif" width="400"> <br>
+
+<details>
+  <summary> Spawning a death box and adding items to it </summary> <br>
+  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/deathbox.png" width=100%> <br>
+  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/deathboxStruct.png" width=100%> <br>
+  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/addtobox.png" width=100%> <br>
+</details>
+
+I also developed our pickup system and the HUD showing active upgrades, chosen username, health, ammo and which level of armor you have equipped. <br>
+
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/pickupsandhud.gif" width="400"> 
 
 <details>
   <summary> Spawning a death box </summary> <br>
@@ -58,4 +69,4 @@ When a player dies they drop what we called a "Death Box". This is where their i
 
 
 ### Some fun commits to end this page :)
-  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/gitCommits.png" width=100%>
+  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/gitCommits.png" width=75%>
