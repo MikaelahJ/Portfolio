@@ -31,7 +31,7 @@ Itch.io page: [Here](https://mikaelahj.itch.io/scorched-fur)<br>
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/scorchedFur3.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/scorchedFur4.gif" width="400"/> 
 
 ___
-## [Entity](https://github.com/MikaelahJ/Scorched-Fur---Vertical-slice-with-C-/blob/main/GP22_Mikaelah_Jenkins_ExArb.pdf) <- LEARN MORE!
+## [Entity](https://github.com/MikaelahJ/Portfolio/tree/main/Entity) <- LEARN MORE!
 > In the distant future, humanity is on the verge of extinction. Their new world regime, e-corps are the sole suppliers of food and water, thus the people of earth must obey.
 They have set up an inhumane arena, where you plug yourself into their neural engine and fight within the mind of their entity. Pain is real, death is not.
 The champion of the game is the only one to win the prize, and the only one who will be able to buy food for the day.
