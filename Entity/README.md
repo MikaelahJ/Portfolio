@@ -18,8 +18,7 @@ Entity was a 7-week project during the spring of 2023 where my team developed a 
 
 ### Networking & Replication
 
-My main responsability was developing and maintaining the networking part together with another programmer. This was a pretty big challenge as neither of us had tried multiplayer in Unreal Engine but it turned out to be both a buggy and fun experience. My favorite bug was when the host could kill all clients no problem, but if the clients tried to kill the host they would instantly die themselves. A client shooting another client resulted in both dying :) <br>
-This was of course fixed as we dove deeper into the networking nest of Unreal. <br>
+My main responsability was developing and maintaining the networking part together with another programmer. This was a pretty big challenge as neither of us had tried multiplayer in Unreal Engine but it turned out to be both a buggy and fun experience. My favorite of our first bugs was when the host could kill all clients no problem, but if the clients tried to kill the host they would instantly die themselves. A client shooting another client resulted in both dying :) <br>
 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/hostandjoin.gif" width="700">
 
