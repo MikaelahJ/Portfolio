@@ -1,6 +1,13 @@
 # Mikaelah Jenkins Portfolio
 
-Here is a preview of my previous projects. Click the titles to learn more about my contributions to each game! :)
+## Who am I and what is this?
+
+Hello! I'm a game programmer recently graduated from Yrgo in Gothenburg, Sweden. This page was made to more clearly view and show the projects I've worked on over the years. I have 3+ years of experience with C# as well as a couple of years working in both Unity and Unreal Engine 5 (both Blueprints & C++). 
+
+For me, programming is all about two things: the problem solving and getting that kick after a particularly difficult problem, along with the satisfaction of constantly learning new things and using them to improve or create something I've never done before. <br>
+I’m currently looking for a fun team to work with and learn even more from :)
+
+Below is a preview of my previous projects. Click the titles to learn more about my contributions to each game! :)
 
 # Game Catalog
 
