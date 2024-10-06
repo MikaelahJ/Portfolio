@@ -55,18 +55,25 @@ Itch.io page: [Here](https://yrgo-game-creator.itch.io/employee-of-the-month) <b
 ___
 # Game Jams
 
-### [Borderline Collie](https://mikaelahj.itch.io/borderline-collie) <- Itch.io page here!
-Theme: Make me laugh <br>
-Engine: Unity <br>
-
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/borderlineCollie.png" width="400"/>
-
-___
 ### [Froggy Rescue: Stockholm City](https://mikaelahj.itch.io/froggy-rescue) <- Itch.io page here!
 Theme: This was for a Science jam where our theme was a scientists field of research, flash flooding primarily in city enviroments <br>
 Engine: Unreal Engine 5 <br>
 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/froggyRescue.gif" width="400"/>
+
+___
+### [Ladder Engineer](https://linus-lindblad.itch.io/ladder-engineer) <- Itch.io page here!
+Theme: Bottomless <br>
+Engine: Unreal Engine 5 <br>
+
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/ladderEngineer.png" width="400"/>
+
+___
+### [Borderline Collie](https://mikaelahj.itch.io/borderline-collie) <- Itch.io page here!
+Theme: Make me laugh <br>
+Engine: Unity <br>
+
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/borderlineCollie.png" width="400"/>
 
 ___
 ### [Trencher](https://theboxgoblin.itch.io/trencher) <- Itch.io page here!
@@ -81,11 +88,4 @@ Theme: Close call <br>
 Engine: Unity <br>
 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/grumpyGranny.jpg" width="400"/>
-
-___
-### [Ladder Engineer](https://linus-lindblad.itch.io/ladder-engineer) <- Itch.io page here!
-Theme: Bottomless <br>
-Engine: Unreal Engine 5 <br>
-
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/ladderEngineer.png" width="400"/>
 
