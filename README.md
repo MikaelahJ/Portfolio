@@ -18,7 +18,7 @@ Steam page: [Here](https://store.steampowered.com/app/2725470/The_Prisoning_Flet
 
 ___
 ## [Scorched Fur](https://github.com/MikaelahJ/Scorched-Fur-Master-thesis/tree/main) <- LEARN MORE!
-> This is my higher vocational education degree project for Yrgo, Game Creator Programmer. For me this project had two main goals. The first was to create a vertical slice / demo of a soulslike combat game in Unreal Engine 5. The second goal was to learn C++ and its implementation in UE5. 
+> Scorched Fur is my higher vocational education degree project for Yrgo - Game Creator Programmer, where I, along with two other programmers, chose to create a 'vertical slice' with a particular focus on emulating the 'souls-like' genre. For me this project had two main goals. The first was to create a vertical slice / demo of a soulslike combat game in Unreal Engine 5. The second goal was to learn C++ and its implementation in UE5.My responsibility was to develop the boss's behavior, for which I built a custom state machine to dynamically select attacks. A major challenge was the absence of an animator in the team, which forced me to dive deeper into UE5's animation system to blend and modify animations, an experience that turned out to be unexpectedly enjoyable. Developing and implementing dynamic AI and NPC behaviors is a major interest of mine, and this project has definitely strengthened that interest.
 
 Developed: Sep 2023 - Nov 2023 <br>
 Engine: Unreal Engine 5 <br>
@@ -42,7 +42,7 @@ Itch.io page: [Here](https://yrgo-game-creator.itch.io/entity)<br>
 
 ___
 ## [Employee Of The Month](https://github.com/MikaelahJ/Portfolio/tree/main/Employee%20Of%20The%20Month) <- LEARN MORE!
- > A 2D top down game where you get the chance to take out all your office aggression against your friends in a two- to four person shooter office showdown to become the Employee of the month! 
+> Employee of the Month was created with 7 classmates during a 7-week project course at Yrgo. My primary responsibilities were developing weapon upgrades and features, as well as a local co-op lobby where up to 4 players could join, choose characters and start correctly. All upgrades were designed to be combinable and work together, allowing for "ultimate attacks" with specific combinations. Working on this game taught me a great deal about game design, graphics, and the game development process.
  
 Developed: Nov 2022 - Jan 2023 <br>
 Engine: Unity <br>
@@ -52,9 +52,6 @@ Itch.io page: [Here](https://yrgo-game-creator.itch.io/employee-of-the-month) <b
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm1.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm2.gif" width="400"/> 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm4.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm3.gif" width="400"/> 
 
-
-
-
 ___
 # Game Jams
 
@@ -62,17 +59,33 @@ ___
 Theme: Make me laugh <br>
 Engine: Unity <br>
 
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/borderlineCollie.png" width="400"/>
+
 ___
 ### [Froggy Rescue: Stockholm City](https://mikaelahj.itch.io/froggy-rescue) <- Itch.io page here!
-Theme: This was for a Science jam where our theme was a scientists field of research, flash flooding <br>
+Theme: This was for a Science jam where our theme was a scientists field of research, flash flooding primarily in city enviroments <br>
 Engine: Unreal Engine 5 <br>
+
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/froggyRescue.gif" width="400"/>
+
+___
+### [Trencher](https://theboxgoblin.itch.io/trencher) <- Itch.io page here!
+Theme: Diving Deeper <br>
+Engine: Unity <br>
+
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/trencher.gif" width="400"/>
 
 ___
 ### [Grumpy Granny](https://mikaelahj.itch.io/grumpy-granny) <- Itch.io page here!
 Theme: Close call <br>
 Engine: Unity <br>
 
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/grumpyGranny.jpg" width="400"/>
+
 ___
 ### [Ladder Engineer](https://linus-lindblad.itch.io/ladder-engineer) <- Itch.io page here!
 Theme: Bottomless <br>
 Engine: Unreal Engine 5 <br>
+
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/ladderEngineer.png" width="400"/>
+
