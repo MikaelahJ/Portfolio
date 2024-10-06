@@ -23,8 +23,10 @@ If i remember correctly, this was because we had incorrectly connected each deat
 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/hostandjoin.gif" width="700">
 
+### Click dropdowns to view relevant Blueprints ▼
+
 <details>
-  <summary> Host game </summary> <br>
+  <summary> Host game  </summary> <br>
   <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/host.png" width=100%> <br>
 </details>
 
@@ -44,6 +46,8 @@ I developed the system for all of the weapon VFX using Niagara with assets from 
 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/weaponFX.gif" width="700"> <br>
 
+### Click dropdown to view relevant Blueprints ▼
+
 <details>
   <summary> Weapon VFX Blueprint </summary> <br>
   <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/weaponFX0.png" width=100%> <br>
@@ -57,6 +61,8 @@ When a player dies they drop what we called a "Death Box". This is where their i
 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/deathbox.gif" width="700"> <br>
 
+### Click dropdown to view relevant Blueprints ▼
+
 <details>
   <summary> Spawning a death box and update its inventory </summary> <br>
   <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/spawndeathbox.png" width=100%> <br>
@@ -69,6 +75,8 @@ ___
 I also developed our pickup system and the HUD showing active upgrades, chosen username, health, ammo and which level of armor you have equipped. <br>
 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/pickupsandhud.gif" width="700"> 
+
+### Click dropdowns to view relevant Blueprints ▼
 
 <details>
   <summary> Pickup Rifle </summary> <br>
