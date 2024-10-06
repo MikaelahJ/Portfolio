@@ -6,8 +6,7 @@ Here is a preview of my previous projects :)
 
 ## [The Prisoning: Fletcher's Quest](https://github.com/MikaelahJ/Portfolio/tree/main/The%20Prisoning%20-%20Fletchers%20Quest) <- LEARN MORE!
 
-> After a visit to the psychologist that went horribly wrong you’re trapped in the mind of a game developer on the brink of physical and emotional burnout during the last stages of an intense project. Experience a metroidvania drenched in anxiety based on a very true story.
-Help Fletcher Howie Jr. escape his mental prison and save the day!
+> For 6 months, I worked as an intern at Elden Pixels in Gothenburg. I was involved from the start on The Prisoning: Fletcher's Quest, a new project in Unity where I had significant responsibility for developing enemies and bosses. During this internship, I created around 20 enemies and 3 bosses from scratch, which was a super fun challenge to program. In addition to working on enemies, I spent a lot of time developing both in-depth systems and various gameplay systems related to enemies and bosses, as well as unique sequence breaks and cutscenes to give the game its distinctive feel. Currently, I don’t know the release date, but there may be an opportunity to test a demo if you're interested. :)
 
 Developed: Nov 2023 - June 2024 <br>
 Engine: Unity <br>
@@ -19,8 +18,7 @@ Steam page: [Here](https://store.steampowered.com/app/2725470/The_Prisoning_Flet
 
 ___
 ## [Scorched Fur](https://github.com/MikaelahJ/Scorched-Fur-Master-thesis/tree/main) <- LEARN MORE!
-> Step into the mystical valley of long lost magic, mysterious runes and living fauna. Exterminate the corrupted plants to reclaim this thriving land for your kind. 
-You're their last hope!
+> This is my higher vocational education degree project for Yrgo, Game Creator Programmer. For me this project had two main goals. The first was to create a vertical slice / demo of a soulslike combat game in Unreal Engine 5. The second goal was to learn C++ and its implementation in UE5. 
 
 Developed: Sep 2023 - Nov 2023 <br>
 Engine: Unreal Engine 5 <br>
@@ -32,9 +30,7 @@ Itch.io page: [Here](https://mikaelahj.itch.io/scorched-fur)<br>
 
 ___
 ## [Entity](https://github.com/MikaelahJ/Portfolio/tree/main/Entity) <- LEARN MORE!
-> In the distant future, humanity is on the verge of extinction. Their new world regime, e-corps are the sole suppliers of food and water, thus the people of earth must obey.
-They have set up an inhumane arena, where you plug yourself into their neural engine and fight within the mind of their entity. Pain is real, death is not.
-The champion of the game is the only one to win the prize, and the only one who will be able to buy food for the day.
+> Entity was a 7-week project during the spring of 2023 where my team developed a LAN multiplayer FPS in Unreal Engine 5 (Blueprints) set in a dark environment with various light-related abilities. I, together with another programmer, primarily handled the networking aspect and integrated the other team members' features to function and replicate for all players simultaneously. I also worked extensively on developing our VFX and ensuring they displayed correctly for all players.
 
 Developed: Mars 2023 - May 2023 <br>
 Engine: Unreal Engine 5 <br>
