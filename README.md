@@ -4,7 +4,7 @@
 
 Hello! I'm a game programmer recently graduated from Yrgo in Gothenburg, Sweden. This page was made to more clearly view and show the projects I've worked on over the years. I have 3+ years of experience with C# as well as a couple of years working in both Unity and Unreal Engine 5 (both Blueprints & C++). 
 
-For me, programming is all about two things: the problem solving and getting that kick after a particularly difficult problem, along with the satisfaction of constantly learning new things and using them to improve or create something I've never done before. My approach to game development is mostly just "Go with the flow and follow the fun". why fight against what makes the game fun? Games should be fun and interesting to play, so that's always the direction I aim for in my work.
+For me, programming is all about two things: the problem solving and getting that kick after a particularly difficult problem, along with the satisfaction of constantly learning new things and using them to improve or create something I've never done before. My approach to game development is mostly just "Go with the flow and follow the fun". Why fight against what makes the game fun? Games should be fun and interesting to play, so that's always the direction I aim for in my work.
 
 Below is a preview of my previous projects. Click the titles to learn more about my contributions to each game. Feel free to reach out if you have any questions or just want to chat, I'd love to connect! :)
 
