@@ -97,7 +97,18 @@ Engine: Unity <br>
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/grumpyGranny.jpg" width="400"/>
 
 ___
-# My educations
+# References
+
+Mikael Forslind - Elden Pixels, CEO & Designer <br>
+0730-659018 <br>
+mikael@eldenpixels.com <br>
+
+Isac Degerborg - Elden Pixels, Programmer <br>
+0736-259821 <br>
+isac@eldenpixels.com <br>
+
+___
+# My Educations
 
 ### Yrgo / Game Creator Programmer
 > 2022-2024, Gothenburg, Sweden
