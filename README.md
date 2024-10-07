@@ -104,6 +104,12 @@ ___
 
 Recently graduated from a program in game programming and game design. During my studies, I developed skills in working both independently and in larger teams, and deepened my problem-solving abilities. I primarily worked with C# in Unity but also delved into C++ and Blueprints in Unreal Engine 5 across several projects during the course. The program also includes a 6-month internship, which I completed at Elden Pixels in Gothenburg.
 
+<details>
+  <summary> Degree certificate </summary> <br>
+  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/DegreeYrgo.jpeg" width=100%> <br>
+  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/DegreeYrgo2.jpeg" width=100%> <br>
+</details>
+
 ___
 ### Högskolan Kristianstad / Computers & programming in C++
 > 2024-2024, Remote
@@ -116,3 +122,7 @@ ___
 
 Specialization: Information and Media Technology, with a strong focus on web development and programming. Worked with HTML, CSS, PHP, and JavaScript in web development and web server programming, as well as C#, GDScript and Python in several programming courses. I also gained a CISCO certification during the program.
 
+<details>
+  <summary> Degree certificate </summary> <br>
+  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/LugnetgymnasietExamensbevis.jpg" width=100%> <br>
+</details>
