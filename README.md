@@ -2,7 +2,7 @@
 
 ## Who am I and what is this?
 
-Hello! I'm a game programmer recently graduated from Yrgo in Gothenburg, Sweden. This page was made to more clearly view and show the projects I've worked on over the years. I have 3+ years of experience with C# as well as a couple of years working in both Unity and Unreal Engine 5 (both Blueprints & C++) as well as some experience in Godot with GDScript. 
+Hello! I'm a game programmer recently graduated from Yrgo in Gothenburg, Sweden. This page was made to more clearly view and show the projects I've worked on over the years. I have 3+ years of experience with C# as well as a couple of years working in both Unity and Unreal Engine 5 (both Blueprints & C++) as well as some experience in Godot with GDScript. I'm currently taking a course in C++ to get a better understanding of how it works under the hood.
 
 For me, programming is all about two things: the problem solving and getting that kick after a particularly difficult problem, along with the satisfaction of constantly learning new things and using them to improve or create something I've never done before. My approach to game development is mostly just "Go with the flow and follow the fun". Why fight against what makes the game fun? Games should be fun and interesting to play, so that's always the direction I aim for in my work.
 
@@ -95,4 +95,24 @@ Theme: Close call <br>
 Engine: Unity <br>
 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/grumpyGranny.jpg" width="400"/>
+
+___
+# My educations
+
+### Yrgo / Game Creator Programmer
+> 2022-2024, Gothenburg, Sweden
+
+Recently graduated from a program in game programming and game design. During my studies, I developed skills in working both independently and in larger teams, and deepened my problem-solving abilities. I primarily worked with C# in Unity but also delved into C++ and Blueprints in Unreal Engine 5 across several projects during the course. The program also includes a 6-month internship, which I completed at Elden Pixels in Gothenburg.
+
+___
+### Högskolan Kristianstad / Computers & programming in C++
+> 2024-2024, Remote
+
+Ongoing course in C++ to deepen my current knowledge in programming. The course will be completed in November 2024.
+
+___
+### Lugnetgymnasiet / Technical Education Program
+> 2019-2022, Falun, Sweden
+
+Specialization: Information and Media Technology, with a strong focus on web development and programming. Worked with HTML, CSS, PHP, and JavaScript in web development and web server programming, as well as C#, GDScript and Python in several programming courses. I also gained a CISCO certification during the program.
 
