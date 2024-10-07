@@ -106,8 +106,8 @@ Recently graduated from a program in game programming and game design. During my
 
 <details>
   <summary> Degree certificate </summary> <br>
-  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/DegreeYrgo.jpeg" width=100%> <br>
-  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/DegreeYrgo2.jpeg" width=100%> <br>
+  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/DegreeYrgo.jpeg" width=100%> <br>
+  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/DegreeYrgo2.jpeg" width=100%> <br>
 </details>
 
 ___
@@ -124,5 +124,5 @@ Specialization: Information and Media Technology, with a strong focus on web dev
 
 <details>
   <summary> Degree certificate </summary> <br>
-  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/LugnetgymnasietExamensbevis.jpg" width=100%> <br>
+  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/LugnetgymnasietExamensbevis.jpg" width=100%> <br>
 </details>
