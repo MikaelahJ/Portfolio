@@ -273,7 +273,9 @@ void RotateToAim()
 
 ### dark versions of maps and destruction in maps
 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/hostandjoin.gif" width="700">
+I was also responsable for implementing the artists vision of how the maps should look with both breakable furniture and lightning.  <br>
+
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/destruction.gif" width="400"> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/destruction.gif" width="400">
 
 <details>
   <summary> Item Break </summary>
