@@ -41,7 +41,7 @@ ___
 ## [Entity](https://github.com/MikaelahJ/Portfolio/tree/main/Entity) <- LEARN MORE!
 > Entity was a 7-week project during the spring of 2023 where my team developed a LAN multiplayer FPS in Unreal Engine 5 (Blueprints) set in a dark environment with various light-related abilities. I, together with another programmer, primarily handled the networking aspect and integrated the other team members' features to function and replicate for all players simultaneously. I also worked extensively on developing our VFX and ensuring they displayed correctly for all players.
 
-Developed: Mars 2023 - May 2023 <br>
+Developed: March 2023 - May 2023 <br>
 Engine: Unreal Engine 5 <br>
 Team: 4 Programmers, 4 Artists <br>
 Itch.io page: [Here](https://yrgo-game-creator.itch.io/entity)<br>
