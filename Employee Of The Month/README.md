@@ -273,9 +273,9 @@ void RotateToAim()
 
 ### dark versions of maps and destruction in maps
 
-I was also responsable for implementing the artists vision of how the maps should look with both breakable furniture and lightning.  <br>
+I was also responsable for implementing the artists vision of how the maps should look with both breakable furniture and lightning. We also decided to create a night version of each map to double the maps and add more variety. Since I already made the other map scenes I also made these night versions, adding lights with the help of an artist as well as a flashlight for the players. <br>
 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/destruction.gif" width="400"> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/destruction.gif" width="400">
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/destruction.gif" width="400"> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/nightMap.gif" width="400">
 
 <details>
   <summary> Item Break </summary>
