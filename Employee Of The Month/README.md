@@ -10,12 +10,13 @@
 ## Brief project background
 Employee of the Month was created with 7 classmates during a 7-week project course at Yrgo in the winter of 2022-2023. My primary responsibilities were developing weapon upgrades and features, as well as a local co-op lobby where up to 4 players could join, choose characters and start correctly. All upgrades were designed to be combinable and work together, allowing for "ultimate attacks" with specific combinations. Working on this game taught me a great deal about game design, graphics, and the game development process.
 
-
 ## My contributions to this project
 I was basically the jack of all trades during this project so the things I've done are all over the place but I've tried to contain the bigger stuff here. 
 
-### player stuff
-I worked a lot with the character select where each player controller needed to connect to it's own coloured cursor and save which character each player choose. This was used to show correct sprites and colours in-game and during both the intermission (Coffee break) screen and the end screen showing the employee of the month (winner).
+### Character Select
+I worked a lot with the character select where each player controller needed to connect to it's own coloured cursor and save which character each player choose. This was used to show correct sprites and colours in-game and during both the intermission (Coffee break) screen and the end screen showing the employee of the month (winner). <br>
+
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/characterSelect.gif" width="400"> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/intermission.gif" width="400">
 
 <details>
   <summary> Connect selected character to player controller </summary> <br>
