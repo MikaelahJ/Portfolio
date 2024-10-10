@@ -2,7 +2,7 @@
 
 ## Who am I and what is this?
 
-Hello! I'm a game programmer recently graduated from Yrgo in Gothenburg, Sweden. This page was made to more clearly view and show the projects I've worked on over the years. I have 3+ years of experience with C# as well as a couple of years working in both Unity and Unreal Engine 5 (both Blueprints & C++) as well as some experience in Godot with GDScript. I'm also currently taking a course in C++ to get a better understanding of how it works under the hood.
+Hello! I'm a game programmer who recently graduated from Yrgo in Gothenburg, Sweden. This page was made to more clearly view and show the projects I've worked on over the years. I have 3+ years of experience with C# as well as a couple of years working in both Unity and Unreal Engine 5 (both Blueprints & C++) as well as some experience in Godot with GDScript. I'm also currently taking a course in C++ to get a better understanding of how it works under the hood.
 
 I've also worked with GitHub in almost all projects except for _The Prisoning_ where we used Unity DevOps (former Plastic SCM).
 
