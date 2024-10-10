@@ -11,7 +11,8 @@
 Employee of the Month was created with 7 classmates during a 7-week project course at Yrgo in the winter of 2022-2023. My primary responsibilities were developing weapon upgrades and features, as well as a local co-op lobby where up to 4 players could join, choose characters and start correctly. All upgrades were designed to be combinable and work together, allowing for "ultimate attacks" with specific combinations. Working on this game taught me a great deal about game design, graphics, and the game development process.
 
 ## My contributions to this project
-I was basically the jack of all trades during this project so the things I've done are all over the place but I've tried to contain the bigger stuff here. 
+I was basically the jack of all trades during this project so the things I've done are all over the place but I've tried to contain the bigger stuff here. <br>
+Click dropdowns to view relevant Blueprints!
 
 ### Character Select
 I worked a lot with the character select where each player controller needed to connect to it's own coloured cursor and save which character each player choose. This was used to show correct sprites and colours in-game and during both the intermission (Coffee break) screen and the end screen showing the employee of the month (winner). <br>
@@ -89,9 +90,6 @@ private void SpawnPlayer()
 }
 ```
 </details>
-
-Item spawning?
-
 
 I also developed the system to save points and then checking them to show accurately during the "Coffee Break" screen at the half time and also the winner portrait at the end. It also checks if there needs to be a tiebreaker and then spawns only the correct tiebreaker players for a final round. 
 <details>
@@ -171,7 +169,9 @@ public void StartTiebreaker()
 ```
 </details>
 
-### Weapon upgrades
+### Weapon Modifyers
+
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/modifyWeapons.gif" width="700">
 
 <details>
   <summary> Microwave Exploding Shots </summary>
@@ -196,8 +196,13 @@ private void Explode(Vector2 collisionPoint, Collision2D collision)
 ```
 </details>
 
+
+I also developed some of the "Ultimate" combination attacks that only work when getting 3 of the same modifyer. The greatest example of this is the super microwave which shoots a laser, with a lot of damage but very slow rotation speed, for a couple seconds. This was made using a line renderer with a small shader and particle systems. <br>
+
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/mikroLaser.gif" width="400"> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/Shotgun.gif" width="400">
+
 <details>
-<summary> Shotgun Modifyer </summary>
+<summary> Ultimate Shotgun Modifyer </summary>
 
   ```C#
 private void FireShotgun()
@@ -218,12 +223,6 @@ private void FireShotgun()
 }
 ```
 </details>
-
-
-I also developed some of the "Ultimate" combination attacks that only work when getting 3 of the same modifyer. The greatest example of this is the super microwave which shoots a laser, with a lot of damage but very slow rotation speed, for a couple seconds. This was made using a line renderer with a small shader and particle systems. <br>
-
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/mikroLaser.gif" width="700"> 
-
 
 <details>
   <summary> Microwave Laser </summary>
