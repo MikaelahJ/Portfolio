@@ -12,8 +12,342 @@ Employee of the Month was created with 7 classmates during a 7-week project cour
 
 
 ## My contributions to this project
+I was basically the jack of all trades during this project so the things I've done are all over the place but I've tried to contain the bigger stuff here. 
+
+### player stuff
+I worked a lot with the character select where each player controller needed to connect to it's own coloured cursor and save which character each player choose. This was used to show correct sprites and colours in-game and during both the intermission (Coffee break) screen and the end screen showing the employee of the month (winner).
+
+<details>
+  <summary> Connect selected character to player controller </summary> <br>
+  
+```C#
+public void ConnectCharacterToPlayer(string playerName, string SelectedCharacter)
+{
+     int selectedCharacter = Convert.ToInt32(SelectedCharacter);
+     if (players.ContainsKey(playerName))
+         players[playerName] = selectedCharacter;
+     else
+         players.Add(playerName, selectedCharacter);
+
+     playersChosen = players.Count;
+}
+```
+</details>
+
+<details>
+  <summary> Spawn players </summary> <br>
+
+```C#
+private void SpawnPlayer()
+{
+    player = Instantiate(playerPrefab, SpawnManager.instance.GetRandomSpawnPoint(), transform.rotation);
+    player.name = "P" + (playerInput.playerIndex + 1).ToString() + " Player";
+    playerMovement = player.GetComponent<Movement>();
+    aim = player.GetComponent<Aim>();
+
+    SetFlashlightsOnOff();
+
+    //Rumble
+    AddRumble();
+
+    player.GetComponent<Movement>().animator = player.GetComponent<Animator>();
+
+    player.GetComponent<HasHealth>().playerIndex = playerInput.playerIndex;
+    player.GetComponent<HasHealth>().animator = player.GetComponent<Animator>();
+
+    GameObject circle = Instantiate(playerHighlightCircle, player.transform);
+    circle.GetComponent<SpriteRenderer>().color = pColors[playerInput.playerIndex];
+
+    //Show who is who at start of round
+    GameObject whichPlayer = Instantiate(whichPlayerArrow, player.transform.position, Quaternion.identity);
+    
+    //Keep track of leader each round by spawning mug over head
+    List<int> playersInlead = GameManager.Instance.CountPoints();
+
+    foreach (int index in playersInlead)
+    {
+        int playerNumber = index + 1;
+        if (player.name == "P" + playerNumber + " Player")
+        {
+            GameObject leadermug = Instantiate(leaderMugPrefab, new Vector2(player.transform.position.x, player.transform.position.y), Quaternion.identity);
+            leadermug.transform.SetParent(player.transform);
+        }
+    }
+
+    foreach (var sprite in whichPlayer.GetComponentsInChildren<SpriteRenderer>())
+    {
+        sprite.sprite = cursorSprites[playerInput.playerIndex];
+        Destroy(whichPlayer, 0.5f);
+    }
+
+    if(playerTeam != null)
+    {
+        circle.GetComponent<SpriteRenderer>().color = pColors[(int)playerTeam.GetTeamName() - 1];
+    }
+    player.GetComponent<HasHealth>().team = playerTeam;
+}
+```
+</details>
+
+Item spawning?
+
+
+I also developed the system to save points and then checking them to show accurately during the "Coffee Break" screen at the half time and also the winner portrait at the end. It also checks if there needs to be a tiebreaker and then spawns only the correct tiebreaker players for a final round. 
+<details>
+  <summary> add points and check winner and tiebreaker </summary>
+
+```C#
+public void AddPointsToPlayer(string playerName, int points)
+{
+    Debug.Log("Adding " + points + " points to" + playerName);
+    if (playerPoints.ContainsKey(playerName))
+    {
+        playerPoints[playerName] += points;
+    }
+    else
+    {
+        playerPoints.Add(playerName, points);
+    }
+    //foreach(KeyValuePair<string,int> kvp in playerPoints)
+    //{
+    //    Debug.LogFormat("playerPoints: {0} - {1}", kvp.Key, kvp.Value);
+    //}
+}
+
+public List<int> GetWinner()
+{
+    List<int> winner = CountPoints();
+    return winner;
+}
+
+public int GetWinnerSprite(int winner)
+{
+    int winnerSprite = players["P" + winner.ToString()];
+    return winnerSprite;
+}
+
+public List<int> CountPoints()
+{
+    int result = 0;
+    List<int> winner = new List<int>(playersCount);
+
+    for (int i = 0; i < playerPoints.Count; i++)
+    {
+        if (playerPoints["P" + i.ToString()] > result)
+        {
+            result = playerPoints["P" + i];
+            winner.Insert(0, i);
+        }
+        else if (playerPoints["P" + i.ToString()] == result && playerPoints["P" + i.ToString()] > 0)
+        {
+            winner.Add(i);
+        }
+    }
+    return winner;
+}
+
+public void SetTiebreaker(List<int> winners)
+{
+    tiebreaker = true;
+    GameModeManager.Instance.currentMode = Gamemodes.FreeForAll;
+    foreach (int winner in winners)
+    {
+        tiebreakers.Add(winner);
+    }
+    SpawnManager spawnManager = GameObject.Find("SpawnPoints").gameObject.GetComponent<SpawnManager>();
+    spawnManager.RestartMatch();
+}
+
+public void StartTiebreaker()
+{
+    if (GameObject.FindGameObjectWithTag("GameOverCanvas") != null)
+    {
+        playSceneCanvas = GameObject.FindGameObjectWithTag("GameOverCanvas").GetComponent<Canvas>();
+        playSceneCanvasTextImage = playSceneCanvas.GetComponentInChildren<Image>();
+    }
+    StartCoroutine(TiebreakerText());
+}
+```
+</details>
 
 ### Weapon upgrades
+
+<details>
+  <summary> Microwave Exploding Shots </summary>
+
+``` C#
+private void Explode(Vector2 collisionPoint, Collision2D collision)
+{
+    if (hasExploded) { return; }
+    hasExploded = true;
+
+    var explosion = Instantiate(explosionPrefab, transform.position, transform.rotation);
+    explosion.transform.localScale = new Vector3(explodeRadius, explodeRadius, explodeRadius);
+    Destroy(explosion, 1.5f);
+
+    Collider2D[] targetsInRadius = Physics2D.OverlapCircleAll(collisionPoint, explodeRadius);
+
+    foreach (var target in targetsInRadius)
+    {
+        SendDamage(explosionDamage, target, collision);
+    }
+}
+```
+</details>
+
+<details>
+<summary> Shotgun Modifyer </summary>
+
+  ```C#
+private void FireShotgun()
+{
+    float startOffset = shotgunAmount / 2 * shotgunSpreadBetween;
+
+    for (int i = 0; i < shotgunAmount; i++)
+    {
+        GameObject newBullet = Instantiate(bulletPrefab, firePoint.position, transform.rotation);
+        newBullet.GetComponent<Bullet>().UpdateBulletModifyers(weaponController.weapon);
+        newBullet.GetComponent<Bullet>().bulletOwner = ownerCollider;
+        newBullet.transform.Rotate(new Vector3(0, 0, -startOffset + i * 5));
+    }
+
+    //Play shotgun fire animation
+    fireAnimation.SetTrigger("fireShotgun");
+    LoseAmmo();
+}
+```
+</details>
+
+<details>
+  <summary> Microwave Laser </summary>
+
+``` C#
+public void EnableLaser()
+{
+    lineRenderer.enabled = true;
+    Camera.main.GetComponent<ScreenShakeBehavior>().TriggerShake(3, 0.07f);
+    if (movement == null)
+        movement = GetComponentInParent<Movement>();
+
+    //movement.enabled = false;
+    defaultWalkSpeed = movement.walkSpeed;
+    movement.walkSpeed *= 0.1f;
+
+    for (int i = 0; i < particles.Count; i++)
+        particles[i].Play();
+}
+
+public void UpdateLaser()
+{
+    RaycastHit2D hit = Physics2D.Raycast(transform.position, firePoint.transform.up, 20, ~ignore);//send raycast and ignore modifyers
+
+    if (hit)
+    {
+        SendDamage(hit.collider, damage * Time.deltaTime * 2.5f);
+        lineRenderer.SetPosition(1, hit.point);
+    }
+
+    lineRenderer.SetPosition(0, (Vector2)firePoint.position);
+    startVFX.transform.position = (Vector2)firePoint.position;
+    endVFX.transform.position = lineRenderer.GetPosition(1);
+}
+
+void RotateToAim()
+{
+    Vector2 aimDirection;
+    if (aim.hasGamePad)
+    {
+        aimDirection = aim.aimDirection - (Vector2)transform.position;
+    }
+    else
+    {
+        aimDirection = aim.mousePosition - transform.position;
+    }
+
+    float angle = Mathf.Atan2(aimDirection.y, aimDirection.x) * Mathf.Rad2Deg;
+    rotation.eulerAngles = new Vector3(0, 0, angle);
+    transform.rotation = rotation;
+}
+```
+</details>
+
+### dark versions of maps and destruction in maps
+
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/hostandjoin.gif" width="700">
+
+<details>
+  <summary> Item Break </summary>
+
+```C#
+using System;
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+public class ItemBreak : MonoBehaviour
+{
+    [Header("Sprites in order first to last")]
+    [SerializeField] private List<Sprite> spritesBeforeBreak = new List<Sprite>();
+    [SerializeField] private Animator animator;
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private GameObject spriteMask;
+
+    private int healthMultiplier;
+    public float health;
+    private float startHealth;
+
+    private float damageDealt = 0;
+
+    private void Start()
+    {
+        animator.enabled = false;
+        spritesBeforeBreak.Reverse();
+        healthMultiplier = spritesBeforeBreak.Count;
+        startHealth = health;
+        if (healthMultiplier != 0)
+            health *= healthMultiplier + 1;
+    }
+
+    public void TakeDamage(float damage)
+    {
+        damageDealt += damage;
+
+        health -= damage;
+        if (health <= 0)
+        {
+            animator.enabled = true;
+            animator.SetTrigger("Break");
+            Invoke(nameof(DisableCollider), 0.001f);
+
+            if (spriteMask != null)
+                spriteMask.SetActive(true);
+            return;
+        }
+
+        if (damageDealt >= startHealth)
+        {
+            healthMultiplier--;
+            spriteRenderer.sprite = spritesBeforeBreak[healthMultiplier];
+
+            damageDealt -= startHealth;
+        }
+    }
+
+    //Added this because sometimes the collider disable before pencil stuck on wall script uses it
+    private void DisableCollider()
+    {
+        if (gameObject.GetComponent<Rigidbody2D>() != null)
+            Destroy(gameObject.GetComponent<Rigidbody2D>());
+        var colliders = gameObject.GetComponents<Collider2D>();
+
+        for (int i = 0; i < colliders.Length; i++)
+        {
+            colliders[i].enabled = false;
+        }
+    }
+}
+```
+</details>
 
 <!--- My main responsability was developing and maintaining the networking part together with another programmer. This was a pretty big challenge as neither of us had tried multiplayer in Unreal Engine but it turned out to be both a buggy and fun experience. My favorite bug was when the host could kill all clients no problem, but if the clients tried to kill the host they would instantly die themselves. A client shooting another client resulted in both dying :) <br>
 This was of course fixed as we dove deeper into the networking nest of Unreal. <br>
