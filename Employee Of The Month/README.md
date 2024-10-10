@@ -173,7 +173,7 @@ public void StartTiebreaker()
 
 Some of the more enjoyable systems I worked on were the weapon modifyers, these were both fun to develop and test as different combinations could leed to some fun moments during development. I developed some of the "Ultimate" combination attacks that only work when getting 3 of the same modifyer. The greatest example of this is the super microwave which shoots a laser, with a lot of damage but very slow rotation speed, for a couple seconds. This was made using a line renderer with a small shader and particle systems. <br>
 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/modifiers.png" width="400"> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/modifyWeapons.png" width="400"> <br>
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/modifiers.png" width="400"> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/modifyWeapons.gif" width="400"> <br>
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/mikroLaser.gif" width="400"> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/Shotgun.gif" width="400">
 
 <details>
