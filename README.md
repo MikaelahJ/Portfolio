@@ -13,10 +13,10 @@ mikaelah.jenkins@outlook.com <br>
 [LinkedIn](https://www.linkedin.com/in/mikaelahJ/) <br>
 
 # Content
-[Game Catalog](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#gamecatalog)
-[Game Jams](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#gamejams)
-[References](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#references)
-[Education](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#education)
+[Game Catalog](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#game-catalog) <br>
+[Game Jams](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#game-jams) <br>
+[References](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#references) <br>
+[My Education](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#my-education) <br>
 
 # Game Catalog
 
