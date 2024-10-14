@@ -12,6 +12,9 @@ Below is a preview of my previous projects. Click the titles to learn more about
 mikaelah.jenkins@outlook.com <br>
 [LinkedIn](https://www.linkedin.com/in/mikaelahJ/) <br>
 
+#Content
+[References](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#references)
+
 # Game Catalog
 
 ## [The Prisoning: Fletcher's Quest](https://github.com/MikaelahJ/Portfolio/tree/main/The%20Prisoning%20-%20Fletchers%20Quest) <- LEARN MORE!
