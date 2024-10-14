@@ -10,7 +10,7 @@ For me, programming is all about two things: the problem solving and getting tha
 
 Below is a preview of my previous projects. Click the titles to learn more about my contributions to each game. Feel free to reach out if you have any questions or just want to chat, I'd love to connect! :) <br>
 mikaelah.jenkins@outlook.com <br>
-[Linkedin](https://www.linkedin.com/in/mikaelahJ/) <br>
+[LinkedIn](https://www.linkedin.com/in/mikaelahJ/) <br>
 
 # Game Catalog
 
