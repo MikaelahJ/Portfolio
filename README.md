@@ -9,7 +9,8 @@ I've also worked with GitHub in almost all projects except for _The Prisoning_ w
 For me, programming is all about two things: the problem solving and getting that kick after a particularly difficult problem, along with the satisfaction of constantly learning new things and using them to improve or create something I've never done before. My approach to game development is mostly just "Go with the flow and follow the fun". Why fight against what makes the game fun? Games should be fun and interesting to play, so that's always the direction I aim for in my work.
 
 Below is a preview of my previous projects. Click the titles to learn more about my contributions to each game. Feel free to reach out if you have any questions or just want to chat, I'd love to connect! :) <br>
-mikaelah.jenkins@outlook.com
+mikaelah.jenkins@outlook.com <br>
+https://www.linkedin.com/in/mikaelahJ/ <br>
 
 # Game Catalog
 
