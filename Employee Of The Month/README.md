@@ -11,13 +11,16 @@
 Employee of the Month was created with 7 classmates during a 7-week project course at Yrgo in the winter of 2022-2023. My primary responsibilities were developing weapon upgrades and features, as well as a local co-op lobby where up to 4 players could join, choose characters and start correctly. All upgrades were designed to be combinable and work together, allowing for "ultimate attacks" with specific combinations. Working on this game taught me a great deal about game design, graphics, and the game development process.
 
 ## My contributions to this project
-I was basically the jack of all trades during this project so the things I've done are all over the place but I've tried to contain the bigger stuff here. <br>
-Click dropdowns to view relevant Blueprints!
+I was basically the jack of all trades during this project so the things I've done are all over the place but I've tried to gather my contributions here. <br>
+Click dropdowns to view the code!
 
 ### Character Select
-I worked a lot with the character select where each player controller needed to connect to it's own coloured cursor and save which character each player choose. This was used to show correct sprites and colours in-game and during both the intermission (Coffee break) screen and the end screen showing the employee of the month (winner). <br>
+I worked a lot with the character select where each player controller needed to connect to it's own coloured cursor and save which character each player choose. This was used to show correct sprites and colours in-game and during both the intermission (Coffee break) screen and the end screen showing the employee of the month (winner). I did this by saving the character to a playername / player ID, both of which were named 1-4. Spawning the player would then get the player ID to set the correct sprite. <br>
 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/characterSelect.gif" width="400"> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/intermission.gif" width="400">
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/characterSelect.gif" width="400"> 
+
+>  We got a lot of feedback from playtests that it was hard to keep track of your own player at the start of each map as the spawnpoints randomise the player to a new one each time. Our solution to this was a circle of the players colour around player as well as arrows at the start of the game. <br>
+> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/spawning.gif" width="400">
 
 <details>
   <summary> Connect selected character to player controller </summary> <br>
