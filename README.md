@@ -12,8 +12,11 @@ Below is a preview of my previous projects. Click the titles to learn more about
 mikaelah.jenkins@outlook.com <br>
 [LinkedIn](https://www.linkedin.com/in/mikaelahJ/) <br>
 
-#Content
+# Content
+[Game Catalog](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#gamecatalog)
+[Game Jams](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#gamejams)
 [References](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#references)
+[Education](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#education)
 
 # Game Catalog
 
