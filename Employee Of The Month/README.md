@@ -15,6 +15,7 @@ I was basically the jack of all trades during this project so the things I've do
 
 Click dropdowns to view the code!
 
+___
 ### Character Select
 I worked a lot with the character select where each player controller needed to connect to it's own coloured cursor and save which character each player choose. This was used to show correct sprites and colours in-game and during both the intermission (Coffee break) screen and the end screen showing the employee of the month (winner). I did this by saving the character to a playername / player ID, both of which were named 1-4. Spawning the player would then get the player ID to set the correct sprite. I also added the countdown UI at the beginning of the match using animators and screenshake in sync with the sounds. <br>
 
@@ -95,6 +96,7 @@ private void SpawnPlayer()
 ```
 </details>
 
+___
 ### Point Saving
 
 I also developed the system to save points and then checking them to show accurately during the "Coffee Break" screen at the half time and also the winner portrait at the end. It also checks after the last round if there needs to be a tiebreaker and then spawns only the correct tiebreaker players for a final round. 
@@ -175,6 +177,7 @@ public void StartTiebreaker()
 ```
 </details>
 
+___
 ### Weapon Modifiers
 
 Some of the more enjoyable systems I worked on were the weapon modifiers, these were both fun to develop and test as different combinations could leed to some fun moments during development. I developed some of the "Ultimate" combination attacks that activate when getting 3 of the same modifier. The greatest example of this is the super microwave which shoots a laser, with a lot of damage but very slow rotation speed, for a couple seconds. This was made using a line renderer with a small shader and particle systems. <br>
@@ -204,8 +207,6 @@ private void Explode(Vector2 collisionPoint, Collision2D collision)
 }
 ```
 </details>
-
-
 
 <details>
 <summary> Ultimate Shotgun Modifyer </summary>
@@ -452,7 +453,8 @@ public class Laser : MonoBehaviour
 ```
 </details>
 
-### Maps & Lightning
+___
+### Maps, Lightning & Breakables
 
 I was responsable for implementing the artists vision of how the maps should look with both breakable furniture / items and lightning. We also decided to create a night version of each map to double the maps and add more variety. Since I already made the other map scenes I also made these night versions, adding lights with the help of an artist as well as a flashlight for the players. <br>
 
@@ -531,8 +533,3 @@ public class ItemBreak : MonoBehaviour
 }
 ```
 </details>
-
-___
-### Some fun commits to end this page :)
-  <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Entity/Visuals/gitCommits.png" width=75%>
----> 
