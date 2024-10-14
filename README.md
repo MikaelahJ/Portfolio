@@ -16,7 +16,7 @@ mikaelah.jenkins@outlook.com <br>
 [Game Catalog](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#game-catalog) <br>
 [Game Jams](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#game-jams) <br>
 [References](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#references) <br>
-[My Education](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#my-education) <br>
+[My Education](https://github.com/MikaelahJ/Portfolio/blob/main/README.md#my-educations) <br>
 
 # Game Catalog
 
