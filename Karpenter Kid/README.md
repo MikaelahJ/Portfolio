@@ -32,3 +32,9 @@ ___
 ### Crowbar
 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Karpenter%20Kid/Visuals/glue.png" width=400> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Karpenter%20Kid/Visuals/crowbar.png" width=400> 
+
+___
+### Hammer
+
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Karpenter%20Kid/Visuals/hammer.png" width=400>
+
