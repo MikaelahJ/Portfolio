@@ -1,4 +1,4 @@
-# Mikaelah Jenkins Portfolio
+# Mikaelah Jenkins - Game Programmer Portfolio
 
 ## Who am I and what is this?
 
