@@ -36,7 +36,7 @@ ___
 ## [Scorched Fur](https://github.com/MikaelahJ/Scorched-Fur-Master-thesis/tree/main) <- LEARN MORE!
 > Scorched Fur is my higher vocational education degree project for Yrgo - Game Creator Programmer, where I, along with two other programmers, chose to create a 'vertical slice' with a particular focus on emulating the 'souls-like' genre. For me this project had two main goals. The first was to create a vertical slice / demo of a soulslike combat game in Unreal Engine 5. The second goal was to learn C++ and its implementation in UE5. My responsibility was to develop the boss's behavior, for which I built a custom state machine to dynamically select attacks. A major challenge was the absence of an animator in the team, which forced me to dive deeper into UE5's animation system to blend and modify animations, an experience that turned out to be unexpectedly enjoyable. Developing and implementing dynamic AI and NPC behaviors is a major interest of mine, and this project has definitely strengthened that interest.
 
-Developed: Sep 2023 - Nov 2023 <br>
+Developed: Oct 2023 - Nov 2023 <br>
 Engine: Unreal Engine 5 <br>
 Team: 3 Programmers, 1 Artist <br>
 Itch.io page: [Here](https://mikaelahj.itch.io/scorched-fur)<br>
@@ -67,6 +67,17 @@ Itch.io page: [Here](https://yrgo-game-creator.itch.io/employee-of-the-month) <b
 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm1.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm2.gif" width="400"/> 
 <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm4.gif" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/eotm3.gif" width="400"/> 
+
+___
+## [Karpenter Kid](https://github.com/MikaelahJ/Portfolio/tree/main/Karpenter%20Kid) <- LEARN MORE!
+> Karpenter Kid was a 5 week VR project where my team made a sandbox, lego building type game in Unity.
+ 
+Developed: Sep 2023 - Oct 2023 <br>
+Engine: Unity <br>
+Team: 5 Programmers, 3 Artists <br>
+Unfortunatly no Itch.io page available but can be downloaded here:  <br>
+
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/handy.mp4" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/carcarpetpet.png" width="400"/> 
 
 ___
 # Game Jams
