@@ -70,14 +70,17 @@ Itch.io page: [Here](https://yrgo-game-creator.itch.io/employee-of-the-month) <b
 
 ___
 ## [Karpenter Kid](https://github.com/MikaelahJ/Portfolio/tree/main/Karpenter%20Kid) <- LEARN MORE!
-> Karpenter Kid was a 5 week VR project where my team made a sandbox, lego building type game in Unity.
+> Karpenter Kid was a 5 week VR project where my team made a sandbox, lego building type game in Unity. Make cars! Make chairs! Release your creativity and go back to the old days of playing with blocks and sticks!
  
 Developed: Sep 2023 - Oct 2023 <br>
 Engine: Unity <br>
-Team: 5 Programmers, 3 Artists <br>
-Unfortunatly no Itch.io page available but can be downloaded here:  <br>
+Team: 5 Programmers, 4 Artists <br>
+Unfortunatly no download page available <br>
 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/handy.mp4" width="400"/> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Visuals/carcarpetpet.png" width="400"/> 
+https://github.com/user-attachments/assets/6e1d641e-7a93-4711-9020-08920adc5988
+
+
+
 
 ___
 # Game Jams
