@@ -1,6 +1,6 @@
 # Karpenter Kid --- PAGE CURRENTLY IN PROGRESS
 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/carcarpetpet.png" width=75%>
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Karpenter%20Kid/Visuals/carcarpetpet.png" width=75%>
 
 > Karpenter Kid was a 5 week VR project where my team made a sandbox, lego building type game in Unity. Make cars! Make chairs! Release your creativity and go back to the old days of playing with blocks and sticks!
 
@@ -18,7 +18,7 @@ Click dropdowns to view the code!
 ___
 ### Scrapbook
 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/book.png" width=400>
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Karpenter%20Kid/Visuals/book.png" width=400>
 
 <details>
   <summary> Scrapbook </summary> <br>
@@ -31,4 +31,4 @@ code
 ___
 ### Crowbar
 
-<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/glue.png" width=400> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Employee%20Of%20The%20Month/Visuals/crowbar.png" width=400> 
+<img src="https://github.com/MikaelahJ/Portfolio/blob/main/Karpenter%20Kid/Visuals/glue.png" width=400> <img src="https://github.com/MikaelahJ/Portfolio/blob/main/Karpenter%20Kid/Visuals/crowbar.png" width=400> 
